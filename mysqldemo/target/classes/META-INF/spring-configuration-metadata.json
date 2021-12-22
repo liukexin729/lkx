@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.master",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.ecloud.config.DataSourceConfig",
+      "sourceMethod": "masterDataSource()"
+    },
+    {
+      "name": "spring.datasource.slave",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.ecloud.config.DataSourceConfig",
+      "sourceMethod": "slaveDataSource()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "com.ecloud.redis.RedisProperties",
+      "sourceType": "com.ecloud.redis.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.cluster.nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ecloud.redis.RedisProperties"
+    }
+  ],
+  "hints": []
+}

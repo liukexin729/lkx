@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecloud.dao.InsReportApplyRecordMapper">
+
+    <!-- 这里是作为一个变量使用 -->
+    <sql id="table">ins_report_apply_records</sql>
+
+    <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+    <resultMap id="insReportApplyRecord" type="com.ecloud.entity.InsReportApplyRecord">
+
+        <result column="id" property="id"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+
+        <result column="app_id" property="appId"/>
+        <result column="open_id" property="openId"/>
+        <result column="phone" property="phone"/>
+
+        <result column="jfxxlistid" property="jfxxlistid"/>
+        <result column="sqlsh" property="sqlsh"/>
+        <result column="zjhm" property="zjhm"/>
+        <result column="xm" property="xm"/>
+
+        <result column="province_code" property="provinceCode"/>
+        <result column="province_name" property="provinceName"/>
+
+        <result column="jfje" property="jfje"/>
+        <result column="fkssqq" property="fkssqq"/>
+        <result column="fkssqz" property="fkssqz"/>
+        <result column="jfrq" property="jfrq"/>
+        <result column="rkrq" property="rkrq"/>
+
+        <result column="jfxmmc" property="jfxmmc"/>
+        <result column="jfpmmc" property="jfpmmc"/>
+        <result column="jfzmmc" property="jfzmmc"/>
+        <result column="jbjgmc" property="jbjgmc"/>
+        <result column="skssjgdm" property="skssjgdm"/>
+        <result column="skssjgmc" property="skssjgmc"/>
+
+        <result column="source_type" property="sourceType"/>
+        <result column="source_url" property="sourceUrl"/>
+
+        <result column="ex_num" property="exNum"/>
+        <result column="ex_data" property="exData"/>
+
+        <result column="status" property="status"/>
+
+        <result column="remark" property="remark"/>
+
+    </resultMap>
+
+    <select id="getOneBySqlsh" resultMap="insReportApplyRecord">
+        SELECT
+        create_time,update_time,
+        app_id,open_id,phone,
+        jfxxlistid,sqlsh,zjhm,xm,
+        province_code,province_name,
+        jfje,fkssqq,fkssqz,jfrq,rkrq,
+        jfxmmc,jfpmmc,jfzmmc,jbjgmc,skssjgdm,skssjgmc,
+        source_type,source_url,
+        ex_num,ex_data,
+        status,
+        remark
+        FROM
+        <include refid="table"/>
+        WHERE
+        sqlsh = #{sqlsh} limit 1
+    </select>
+
+<!--    <select id="selectInsReportApplyRecordByCondition" resultMap="insReportApplyRecord">-->
+<!--        SELECT-->
+<!--        create_time,update_time,-->
+<!--        app_id,open_id,phone,-->
+<!--        jfxxlistid,sqlsh,zjhm,xm,-->
+<!--        province_code,province_name,-->
+<!--        jfje,fkssqq,fkssqz,jfrq,rkrq,-->
+<!--        jfxmmc,jfpmmc,jfzmmc,jbjgmc,skssjgdm,skssjgmc,-->
+<!--        source_type,source_url,-->
+<!--        ex_num,ex_data,-->
+<!--        status,-->
+<!--        remark-->
+<!--        FROM-->
+<!--        <include refid="table"/>-->
+<!--        WHERE-->
+<!--        app_id = #{appId} and open_id = #{openId} and status > -1-->
+<!--        order by create_time desc-->
+<!--        limit #{pageNum},#{pageSize}-->
+<!--    </select>-->
+
+<!--    <select id="selectInsReportApplyRecordNumByCondition" resultType="java.lang.Integer">-->
+<!--        SELECT-->
+<!--        count(id)-->
+<!--        FROM-->
+<!--        <include refid="table"/>-->
+<!--        WHERE-->
+<!--        app_id = #{appId} and open_id = #{openId} and status > -1-->
+<!--    </select>-->
+
+    <insert id="insert" parameterType="com.ecloud.entity.InsReportApplyRecord">
+        INSERT INTO
+        <include refid="table"/>
+        (create_time,update_time,
+        app_id,open_id,phone,
+        jfxxlistid,sqlsh,zjhm,xm,
+        province_code,province_name,
+        jfje,fkssqq,fkssqz,jfrq,rkrq,
+        jfxmmc,jfpmmc,jfzmmc,jbjgmc,skssjgdm,skssjgmc,
+        source_type,source_url,
+        ex_num,ex_data,
+        status,
+        remark)
+        values
+        (now(),now(),
+        #{appId},#{openId},#{phone},
+        #{jfxxlistid},#{sqlsh},#{zjhm},#{xm},
+        #{provinceCode},#{provinceName},
+        #{jfje},#{fkssqq},#{fkssqz},#{jfrq},#{rkrq},
+        #{jfxmmc},#{jfpmmc},#{jfzmmc},#{jbjgmc},#{skssjgdm},#{skssjgmc},
+        #{sourceType},#{sourceUrl},
+        #{exNum},#{exData},
+        -1,
+        #{remark})
+    </insert>
+
+    <update id="update" parameterType="com.ecloud.entity.InsReportApplyRecord">
+        UPDATE
+        <include refid="table"/>
+        SET update_time = now()
+        <if test="status != null">,status = #{status}</if>
+        <if test="sourceType != null">,source_type = #{sourceType}</if>
+        <if test="sourceUrl != null">,source_url = #{sourceUrl}</if>
+        WHERE
+        sqlsh = #{sqlsh}
+    </update>
+
+</mapper>
