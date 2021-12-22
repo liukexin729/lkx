@@ -1,0 +1,20 @@
+server:
+  port: 8082
+
+spring:
+  rabbitmq:
+    host: 192.168.253.198
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    listener:
+      simple:
+        retry:
+          enabled: true  #开启重试机制
+          max-attempts: 5 #最大重试次数
+          max-interval: 5000 #重试间隔次数
+        acknowledge-mode: manual #开启手动模式
+  redis:
+    host: 127.0.0.1
+    port: 6379

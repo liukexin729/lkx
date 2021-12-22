@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/common_s/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/common_l/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq_message_mequals_product/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq_message_mequals_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springoot-email/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq_ttl_product/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq_ttl_receive/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="common_s" />
+      </set>
+    </option>
+  </component>
+</project>

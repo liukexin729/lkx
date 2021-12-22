@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common_l/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common_s/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-comsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-receiver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-receiver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-sender/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq_message_mequals_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq_message_mequals_product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq_ttl_product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq_ttl_receive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq_ttl_receive/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springoot-email/src/main/java" charset="UTF-8" />
+  </component>
+</project>

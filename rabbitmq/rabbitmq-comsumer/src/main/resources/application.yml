@@ -1,0 +1,52 @@
+server:
+  port: 9090
+spring:
+  rabbitmq:
+    host: 192.168.253.198
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+      #确认消息已发送到交换机
+      #对于ConfirmCallback来说：
+      #如果消息没到exchange，则confirm回调，ack=false
+    #如果消息到exchange，则confirm回调，ack=true
+    publisher-confirm-type: correlated
+      #确认消息已发送到队列
+      #exchange到queue成功，则不回调return
+    #exchange到queue失败，则回调return（需要设置mandatory=true，否则消息不会回调，）
+    publisher-returns: true
+    listener:
+      simple:
+        acknowledge-mode: manual  #manual:采用手动应答 ,签收模式为手动签收-那么需要在代码中手动ACK   auto: 自动签收
+        concurrency: 1  #指定最小的消费者数量
+        max-concurrency: 3  #指定最大的消费者数量
+        retry:
+          enabled: true  #是否支持重试
+          # 第一次尝试时间间隔
+          initial-interval: 10S
+          # 两次尝试之间的最长持续时间。
+          max-interval: 10S
+          # 最大重试次数(=第一次正常投递1+重试次数4)
+          max-attempts: 5
+          # 上一次重试时间的乘数
+          multiplier: 1.0
+        prefetch: 3    #在单个请求中处理的消息个数，他应该大于等于事务数量(unack的最大数量)
+      direct:
+        default-requeue-rejected: false
+    template:
+      mandatory: true     # 必须设置成true 消息路由失败通知监听者，而不是将消息丢弃
+app:
+  rabbitmq:
+    # 队列定义
+    queue:
+      # 正常业务队列
+      user: user-queue
+      # 死信队列
+      user-dead-letter: user-dead-letter-queue
+    # 交换机定义
+    exchange:
+      # 正常业务交换机
+      user: user-exchange
+      # 死信交换机
+      common-dead-letter: common-dead-letter-exchange

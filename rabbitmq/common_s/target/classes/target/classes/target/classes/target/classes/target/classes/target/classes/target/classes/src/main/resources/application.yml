@@ -1,0 +1,14 @@
+app:
+  rabbitmq:
+    # 队列定义
+    queue:
+      # 正常业务队列
+      user: user-queue
+      # 死信队列
+      user-dead-letter: user-dead-letter-queue
+    # 交换机定义
+    exchange:
+      # 正常业务交换机
+      user: user-exchange
+      # 死信交换机
+      common-dead-letter: common-dead-letter-exchange

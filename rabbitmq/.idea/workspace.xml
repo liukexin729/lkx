@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="001e0d1b-1fbb-46b9-bbf4-60f161ef4fa0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hsdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hsdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hsdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hsdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hsdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hsdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_order: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\my_java\my_repository" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="1xAPsVmL6yBeLOXjmmxAZJGHRgd" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/common_s/src/main/java/com/ecloud/enum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common_s/src/main/java/com/ecloud/enum" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15820312" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecloud.rabbitmq_ttl_receive.mapper" />
+      <recent name="com.ecloud.config" />
+      <recent name="com.ecloud.rabbitmq_message_mequals_consumer.util" />
+      <recent name="com.ecloud.rabbitmq_message_mequals_consumer.config" />
+      <recent name="com.ecloud.springbootsender.aspect" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kaixin\rabbitmq\common_s\src\main\java\com\ecloud\enum" />
+      <recent name="E:\kaixin\rabbitmq" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RabbitmqProviderApplication">
+    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecloud.pubsub.Send" />
+      <module name="product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecloud.pubsub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DelayQueueSender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecloud.delaysender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecloud.delaysender" />
+      <option name="MAIN_CLASS_NAME" value="com.ecloud.delaysender.DelayQueueSender" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DelayQueueSender.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecloud.delaysender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecloud.delaysender" />
+      <option name="MAIN_CLASS_NAME" value="com.ecloud.delaysender.DelayQueueSender" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqComsumerApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-comsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecloud" />
+      <option name="MAIN_CLASS_NAME" value="com.ecloud.RabbitmqComsumerApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSenderApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-sender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecloud.springbootsender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecloud.springbootsender" />
+      <option name="MAIN_CLASS_NAME" value="com.ecloud.springbootsender.SpringbootSenderApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonLApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common_l" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.common_l.CommonLApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common_s" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.CommonSApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-comsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.RabbitmqComsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqMessageMequalsConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq_message_mequals_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.rabbitmq_message_mequals_consumer.RabbitmqMessageMequalsConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqMessageMequalsProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq_message_mequals_product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.rabbitmq_message_mequals_product.RabbitmqMessageMequalsProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.RabbitmqProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqTtlProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq_ttl_product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.rabbitmq_ttl_product.RabbitmqTtlProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqTtlReceiveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq_ttl_receive" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.rabbitmq_ttl_receive.RabbitmqTtlReceiveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootReceiverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-receiver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.springbootreceiver.SpringbootReceiverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-sender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.springbootsender.SpringbootSenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringootEmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springoot-email" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecloud.springootemail.SpringootEmailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RabbitmqComsumerApplicationTests.test1" />
+        <item itemvalue="Application.Send" />
+        <item itemvalue="JUnit.SpringbootSenderApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.DelayQueueSender" />
+        <item itemvalue="JUnit.DelayQueueSender.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="001e0d1b-1fbb-46b9-bbf4-60f161ef4fa0" name="Default Changelist" comment="" />
+      <created>1629795126672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629795126672</updated>
+      <workItem from="1629795129753" duration="4948000" />
+      <workItem from="1629856109699" duration="16406000" />
+      <workItem from="1629944429830" duration="605000" />
+      <workItem from="1629957954723" duration="6403000" />
+      <workItem from="1630027704745" duration="6368000" />
+      <workItem from="1630056704946" duration="132000" />
+      <workItem from="1630108606838" duration="1000" />
+      <workItem from="1630108617790" duration="20323000" />
+      <workItem from="1630199954770" duration="14067000" />
+      <workItem from="1630287358446" duration="45000" />
+      <workItem from="1630302531699" duration="4554000" />
+      <workItem from="1630370045437" duration="20562000" />
+      <workItem from="1630401891827" duration="2792000" />
+      <workItem from="1630456317033" duration="19610000" />
+      <workItem from="1630543121112" duration="14147000" />
+      <workItem from="1630577345841" duration="20000" />
+      <workItem from="1630647224507" duration="3017000" />
+      <workItem from="1630653808066" duration="17000" />
+      <workItem from="1630667547501" duration="1212000" />
+      <workItem from="1630813160329" duration="14548000" />
+      <workItem from="1630889258405" duration="5246000" />
+      <workItem from="1630980410403" duration="2128000" />
+      <workItem from="1635244477748" duration="115000" />
+      <workItem from="1635318695857" duration="11132000" />
+      <workItem from="1635380334176" duration="9367000" />
+      <workItem from="1636589911283" duration="2365000" />
+      <workItem from="1636676434907" duration="660000" />
+      <workItem from="1636681835330" duration="502000" />
+      <workItem from="1636957432458" duration="5566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1630648906294">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1630648906294" />
+    <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630477921759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1630477921759" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1630835212192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1630835212192" />
+    <state x="440" y="223" width="486" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630817491900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="223" width="486" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1630817491900" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630477443336">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1630477443336" />
+    <state width="1323" height="334" key="GridCell.Tab.0.bottom" timestamp="1636619851323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1636619851323" />
+    <state width="1323" height="334" key="GridCell.Tab.0.center" timestamp="1636619851323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1636619851323" />
+    <state width="1323" height="334" key="GridCell.Tab.0.left" timestamp="1636619851322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1636619851322" />
+    <state width="1323" height="334" key="GridCell.Tab.0.right" timestamp="1636619851323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1636619851323" />
+    <state width="1323" height="334" key="GridCell.Tab.1.bottom" timestamp="1636619851324">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1636619851324" />
+    <state width="1323" height="334" key="GridCell.Tab.1.center" timestamp="1636619851323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1636619851323" />
+    <state width="1323" height="334" key="GridCell.Tab.1.left" timestamp="1636619851323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1636619851323" />
+    <state width="1323" height="334" key="GridCell.Tab.1.right" timestamp="1636619851324">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1636619851324" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1630551863281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1630551863281" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1630466324106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630466324106" />
+    <state x="482" y="142" key="chooseDestDirectoryDialog" timestamp="1630115885822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="142" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1630115885822" />
+    <state x="499" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1630304212927">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1630304212927" />
+    <state x="115" y="125" key="new project wizard" timestamp="1630835718259">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="125" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1630835718259" />
+    <state x="369" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1630205302512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="369" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1630205302512" />
+  </component>
+</project>
