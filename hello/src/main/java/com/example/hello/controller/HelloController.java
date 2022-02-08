@@ -33,9 +33,16 @@ public class HelloController {
         return "Hello World4!";
     }
 
+<<<<<<< HEAD
     @RequestMapping(value = "/hello/world6")
     public String hello6() {
 
         return "Hello World6!";
+=======
+    @RequestMapping(value = "/hello/world7")
+    public String hello7() {
+
+        return "Hello World7!";
+>>>>>>> develop-2
     }
 }
