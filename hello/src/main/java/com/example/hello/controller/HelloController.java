@@ -50,6 +50,12 @@ public class HelloController {
 
         return "Hello World8!";
     }
-}
+
+    @RequestMapping(value = "/hello/world9")
+    public String hello9() {
+
+        return "Hello World9!";
+    }
+
 
 
