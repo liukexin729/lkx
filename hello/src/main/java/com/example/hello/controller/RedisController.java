@@ -32,4 +32,12 @@ public class RedisController {
 
         return o.toString();
     }
+
+    @RequestMapping(value = "/getValue1")
+    public String get1(String key1) {
+
+        Object o = redisUtil.get(key1);
+
+        return o.toString();
+    }
 }
