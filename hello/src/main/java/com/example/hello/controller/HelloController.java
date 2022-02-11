@@ -20,7 +20,7 @@ public class HelloController {
 
         return "Hello World1!";
     }
-    
+
     @RequestMapping(value = "/hello/world2")
     public String hello2() {
 
@@ -50,4 +50,12 @@ public class HelloController {
 
         return "Hello World8!";
     }
+
+    @RequestMapping(value = "/hello/world9")
+    public String hello9() {
+
+        return "Hello World9!";
+    }
 }
+
+
