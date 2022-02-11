@@ -56,6 +56,12 @@ public class HelloController {
 
         return "Hello World9!";
     }
+
+    @RequestMapping(value = "/hello/world10")
+    public String hello10() {
+
+        return "Hello World10!";
+    }
 }
 
 
