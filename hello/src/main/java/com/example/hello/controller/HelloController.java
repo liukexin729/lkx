@@ -45,10 +45,10 @@ public class HelloController {
         return "Hello World7!";
     }
 
-    @RequestMapping(value = "/hello/world8")
-    public String hello8() {
+    @RequestMapping(value = "/hello/world89")
+    public String hello89() {
 
-        return "Hello World8!";
+        return "Hello World89!";
     }
 
     @RequestMapping(value = "/hello/world9")
